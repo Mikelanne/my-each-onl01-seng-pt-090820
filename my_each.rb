@@ -1,7 +1,7 @@
 def my_each(collection)
     i = 0 
     while i < collection.length 
-    yeild i
+    yeild(collection)
     counter += 1 
   end
   collection
