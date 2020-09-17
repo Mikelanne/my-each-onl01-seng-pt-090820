@@ -1,9 +1,8 @@
 def my_each(collection)
-  if block_given?
     i = 0 
-    while i < array.length 
-    yeild(array[i])
+    while i < collection.length 
+    yeild(collection[i])
     i = i + 1 
   end
-  array
+  collection
 end
